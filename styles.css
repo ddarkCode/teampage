@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:wght@900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 3% 15%;
+}
+
+h1 {
+  height: 47px;
+  width: 278px;
+  font-family: 'PT Serif';
+  line-height: 1.4;
+  font-weight: bold;
+  letter-spacing: -0.045em;
+  color: #000;
+}
+
+header div {
+  margin-right: 120px;
+}
+
+h3 {
+  width: 117px;
+  height: 27px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  line-height: 1.7;
+  text-transform: uppercase;
+  color: #000;
+}
+
+header p {
+  width: 439px;
+  height: 87px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3% 15%;
+}
+
+img {
+  display: block;
+  height: 300px;
+  width: 250px;
+}
+
+li {
+  list-style: none;
+  width: 300px;
+  height: 350px;
+  color: #000;
+  position: relative;
+}
+
+span {
+  display: block;
+}
+
+.job-title {
+  position: absolute;
+  left: 240px;
+  top: 50px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+
+.name {
+  padding-top: 20px;
+}
+
+.middle {
+  margin-top: 70px;
+}
+
+footer {
+  padding: 7% 14%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+  header div {
+    padding: 0;
+    padding-left: 400px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header div {
+    padding: 0;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3% 15%;
+  }
+
+  img {
+    display: block;
+    height: 200px;
+    width: 150px;
+  }
+
+  li {
+    list-style: none;
+    width: 200px;
+    height: 261.4px;
+    color: #000;
+    position: relative;
+  }
+  .job-title {
+    position: absolute;
+    left: 130px;
+    top: 40px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+  }
+
+  .middle {
+    margin-top: 0;
+  }
+
+  .second {
+    margin-top: 70px;
+  }
+}
